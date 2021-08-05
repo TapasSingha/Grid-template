@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin:0;
+    text-align:center;
+}
+body{
+    background-color:teal;
+    height:100vh;
+}
+#container{
+    max-width:1040px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+    display:grid;
+    grid-template-columns: 
+        20px 230px 40px auto 220px 20px;
+    grid-template-areas: 
+    "margin-left top-link . search margin-right"
+    
+    ;
+}
+#top-link{
+    grid-area:top-link;
+    background-color:aqua;
+}
+#search{
+    grid-area:search;
+    background-color:aquamarine;
+}
