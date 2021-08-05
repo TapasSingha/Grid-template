@@ -22,7 +22,8 @@ body{
     "margin-left nav nav nav nav nav nav nav nav  nav nav nav nav nav nav nav nav margin-right"
     "margin-left photo photo photo photo photo photo photo photo banner-text banner-text banner-text banner-text banner-text banner-text banner-text banner-text margin-right"
     "margin-left services-1  services-1 services-1 services-1 services-1 . services-2 services-2  services-2 services-2 services-2 . services-3 services-3 services-3 services-3 margin-right"
-    "mg-left bottom-links-1 . . bottom-links-2 bottom-links-2 bottom-links-2  bottom-links-2 bottom-links-2 bottom-links-2 . bottom-links-3 bottom-links-3 bottom-links-3 . . bottom-links-4 margin-right"
+    "margin-left bottom-links-1 . . bottom-links-2 bottom-links-2 bottom-links-2  bottom-links-2 bottom-links-2 bottom-links-2 . bottom-links-3 bottom-links-3 bottom-links-3 . . bottom-links-4 margin-right"
+    "margin-left left-footer left-footer  left-footer  left-footer  left-footer  . . . . . . . . . . right-footer margin-right"
     ;
 }
 #top-link{
@@ -51,36 +52,43 @@ body{
 }
 #banner-text{
     grid-area:banner-text;
-    background-color:crimson;
+    background-color:goldenrod;
 }
 
 .services-1{
     grid-area:services-1;
-    background-color:yellow;
+    background-color:lightgreen;
 }
 .services-2{
     grid-area:services-2;
-    background-color:yellow;
+    background-color:lightgreen;
 }
 .services-3{
     grid-area:services-3;
-    background-color:yellow;
+    background-color:lightgreen;
 }
 
 .bottom-links-1{
     grid-area:bottom-links-1;
-    background-color:yellow;
+    background-color:lightcoral;
 }
 .bottom-links-2{
     grid-area:bottom-links-2;
-    background-color:yellow;
+    background-color:lightcoral;
 }
 .bottom-links-3{
     grid-area:bottom-links-3;
-    background-color:yellow;
+    background-color:lightcoral;
 }
 .bottom-links-4{
     grid-area:bottom-links-4;
-    background-color:yellow;
+    background-color:lightcoral;
 }
-
+.left-footer{
+    grid-area:left-footer;
+    background-color:paleturquoise;
+}
+.right-footer{
+    grid-area:right-footer;
+    background-color:paleturquoise;
+}
