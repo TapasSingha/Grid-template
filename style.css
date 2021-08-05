@@ -14,11 +14,20 @@ body{
     background-color:white;
     display:grid;
     grid-template-columns: 
-        20px 230px 40px auto 220px 20px;
+        /*20px 230px 40px auto 220px 20px;*/
+        20px 230px 40px 130px auto 220px 20px;
     grid-template-areas: 
-    "margin-left top-link . search margin-right"
-    
+    "margin-left top-link top-link . . search margin-right"
+    "margin-left logo . . . social-media margin-right"
+    "margin-left nav nav nav nav nav margin-right"
+    "margin-left photo photo photo banner-text banner-text margin-right"
     ;
+    /*
+    "margin-left top-link top-link . search margin-right"
+    "margin-left logo . . social-media margin-right"
+    "margin-left nav nav nav nav margin-right"
+    ;
+    */
 }
 #top-link{
     grid-area:top-link;
@@ -27,4 +36,24 @@ body{
 #search{
     grid-area:search;
     background-color:aquamarine;
+}
+#logo{
+    grid-area:logo;
+    background-color:yellow;
+}
+#social-media{
+    grid-area:social-media;
+    background-color:coral;
+}
+#nav{
+    grid-area:nav;
+    background-color:crimson;
+}
+#photo{
+    grid-area:photo;
+    background-color:greenyellow;
+}
+#banner-text{
+    grid-area:banner-text;
+    background-color:crimson;
 }
