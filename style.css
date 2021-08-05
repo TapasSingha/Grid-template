@@ -14,13 +14,14 @@ body{
     background-color:white;
     display:grid;
     grid-template-columns: 
-        20px 230px 40px 30px 30px 70px auto 30px 80px 220px 20px;
+        20px 210px 20px 10px 30px 30px 30px 20px 50px auto 30px 80px 220px 20px;
+
     grid-template-areas: 
-    "margin-left top-link top-link . . . . . . search margin-right"
-    "margin-left logo . . . . . . . social-media margin-right"
-    "margin-left nav nav nav nav nav nav nav nav nav margin-right"
-    "margin-left photo photo photo photo photo banner-text banner-text banner-text banner-text margin-right"
-    "margin-left services-1 services-1 services-1 . services-2 services-2 . services-3 services-3 margin-right"
+    "margin-left top-link top-link top-link top-link . . . . . . . search margin-right"
+    "margin-left logo logo . . . . . . . . . social-media margin-right"
+    "margin-left nav nav nav nav nav nav nav nav nav nav nav nav margin-right"
+    "margin-left photo photo photo photo photo photo photo banner-text banner-text banner-text banner-text banner-text margin-right"
+    "margin-left services-1  services-1 services-1 services-1 services-1 . services-2 services-2 services-2 . services-3 services-3 margin-right"
     ;
 }
 #top-link{
@@ -64,3 +65,14 @@ body{
     grid-area:services-3;
     background-color:yellow;
 }
+/*
+.bottom-links-1{
+    grid-area:bottom-links-1;
+    background-color:yellow;
+}
+.bottom-links-2{
+    grid-area:bottom-links-2;
+    background-color:yellow;
+}
+
+*/
